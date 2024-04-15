@@ -1,0 +1,212 @@
+/* MARIO PAGE */
+#mariobody {
+    margin: 0;
+    background: url(BG-images/mario.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#mariobox {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 65%;
+}
+/*this makes the text near the evolution pic correspond to the respective games in the picture*/
+#s2-1 {
+    display: grid;
+    grid-template-areas:"p1 p2 p3 p4 p5 p6 p7";
+    margin-right: 4px;
+}
+.p1 {
+    grid-area: p1;
+    border-right: solid 2px black;
+    text-align: center;
+    
+}
+.p2 {
+    grid-area: p2;
+    border-right: solid 2px black;
+    text-align: center;
+}
+.p3 {
+    grid-area: p3;
+    border-right: solid 2px black;
+    text-align: center;
+}
+.p4 {
+    grid-area: p4;
+    border-right: solid 2px black;
+    text-align: center;
+}
+.p5 {
+    grid-area: p5;
+    border-right: solid 2px black;
+    text-align: center;
+}
+.p6 {
+    grid-area: p6;
+    border-right: solid 2px black;
+    text-align: center;
+}
+.p7 {
+    grid-area: p7;
+    text-align: center;
+}
+#mc h2 {
+    color: #107dac;
+    font-size: 25px;
+    opacity: 100%
+}
+#mc p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.25;
+}
+#mariotitle {
+    font-size: 40px;
+    font-weight: 700;
+}
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+  }
+
+#home {
+    margin-top: 100px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1120px) {
+    .navbarfixed {
+        font-size: xx-large;
+        align-items: center;
+    }
+    .mariomenu {
+        width: 70px;
+        height: 69px;
+    }
+
+    #smashbox, #smashbox img {
+        font-size: xx-large;
+        position: static;
+        width: 760px;
+    }
+    #contentboxsmash {
+        display: none;
+    }
+    table {
+        font-size: x-large;
+    }
+    /* Mario Menu Button */
+    .mariomenu img {
+        width: 35px;
+        height: 35px;
+    }
+    .mariomenu {
+        background-color: #333333;
+        color: white;
+        padding: 0 16px;
+        border: none;
+        padding-top: 7px;
+        padding-bottom: 4px;
+        position: relative;
+    }
+    /* The container for dropdown content*/
+    .dropdown {
+        border-top: 3px solid black;
+        top: 0px;
+        position: absolute;
+        right: 0;
+        display: inline-block;
+    }
+    #s2-1, .p1, .p2, .p3, .p4, .p5,.p6,.p7 {
+        display: block;
+        border-right: none;
+    }
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        border: 3px solid black;
+        width: 600px;
+        height: 370px;
+        font-size: 30px;
+        background-color: #333333;
+        line-height: 50px;
+        z-index: 1;
+        text-align: center;
+        position: absolute;
+        right: 0;
+    }
+    /* Content inside the dropdown */
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: black;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .mariomenu {background-color: black;}
+}
+
+@media screen and (min-width: 1120px) {
+    /* Mario Menu Button */
+    /* Mario Menu Button */
+.mariomenu img {
+    width: 35px;
+    height: 35px;
+}
+.mariomenu {
+    background-color: #333333;
+    color: white;
+    padding: 0 16px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    position: relative;
+}
+/* The container for dropdown content*/
+.dropdown {
+    border-top: 3px solid black;
+    top: 0px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    border: 3px solid black;
+    width: 100px;
+    height: 275px;
+    font-size: 16px;
+    background-color: #333333;
+    line-height: 30px;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+/* Content inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .mariomenu {background-color: black;}
+}

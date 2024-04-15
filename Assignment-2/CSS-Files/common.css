@@ -1,0 +1,101 @@
+.navbar {
+    display: inline;
+}
+.navbarfixed {
+    position:fixed;
+    z-index:1;
+    width: 100%;
+    top: 0;
+}
+#navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    border: 3px solid black;
+}
+.navbar a:hover:not(.active) {
+    background-color: #111;
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#homenav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#homenav a:hover:not(.active) {
+    background-color: #107dac;
+}
+#homenav {
+    display: inline;
+    float: left;
+    background-color: #50b8e7;
+}
+#marionav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#marionav a:hover:not(.active) {
+    background-color: #b83838;
+}
+#marionav {
+    display: inline;
+    float: left;
+    background-color: #ff5252;
+}
+#smashnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#zeldanav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#zeldanav a:hover:not(.active) {
+    background-color: #329453;
+}
+#zeldanav {
+    display: inline;
+    float: left;
+    background-color: #5aff91;
+}
+#smashnav a:hover:not(.active) {
+    background-color: 	#ffb805;
+}
+#smashnav {
+    display: inline;
+    float: left;
+    background-color: #ffe505;
+}
+
+/* FOOTER SECTION */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    border: 3px solid black;
+    position:sticky;
+}
+hr {
+    border: 1px solid #ccc;
+}
