@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travis' Blog</title>
+        <!-- Bootstrap CSS  -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Custom CSS  -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1> Welcome to Travis' Blog</h1>
+                    <!---- blog posts will go here -->
+                </div>
+                <div class="col-md-4">
+                    <div id="sidebar">
+                        <h2>Vote for your favorite cat!</h2>
+                        <form id="voteForm">
+                            <div class="form-group">
+                                <label for="name">Your Name:</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="favoriteCat">Favorite Cat:</label>
+                                <select class="form-control" id="favoriteCat" required>
+                                    <option value="fluffy">Fluffy</option>
+                                    <option value="whiskers">Whiskers</option>
+                                    <!-- Add options for other cats here if needed -->
+                                </select>
+                            </div>
+                        </form>
+                        <div id="pollResults">
+                            <!-- Poll results will be displayed here -->
+                        </div>
+                        <h2>Navigation</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="blog-post-1.html">Blog post 1</a></li>
+                            <li class="list-group-item"><a href="blog-post-2.html">Blog post 2</a></li>
+                            <li class="list-group-item"><a href="blog-post-3.html">Blog post 3</a></li>
+                            <!-- Add more blog posts here if needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
