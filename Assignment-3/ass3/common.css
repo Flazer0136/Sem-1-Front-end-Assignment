@@ -1,0 +1,32 @@
+
+hr {
+    border: 1px solid #ccc;
+
+}
+
+/* Links */
+.red-link{
+    color: #ff5252;
+}
+.yellow-link{
+    color: #ffe505;
+}
+.green-link{
+    color: #5aff91;
+}
+.white-link{
+    color: white;
+    text-decoration: none;
+}
+
+/* FOOTER SECTION */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #f1f1f1;
+    color: black;
+    border: 3px solid black;
+    position: fixed;
+    margin-top: 833px;
+    width: 100%;
+}
