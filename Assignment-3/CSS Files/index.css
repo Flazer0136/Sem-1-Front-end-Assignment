@@ -5,6 +5,10 @@ nav {
     background-color: white;
     border-bottom:1px solid black;
 }
+#sidebar {
+    position: fixed;
+    max-width: 300px;
+}
 body {
     margin-bottom: 50px;
     margin-top: 50px;
