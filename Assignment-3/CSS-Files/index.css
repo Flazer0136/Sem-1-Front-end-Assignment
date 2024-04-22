@@ -2,23 +2,23 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: white;
-    border-bottom:1px solid black;
+    background-color: lavenderblush;
 }
 #sidebar {
+    height: 1000px;
+    background-color: lavenderblush;
     position: fixed;
     max-width: 300px;
 }
 body {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 footer {
     padding-top: 5px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: lavenderblush;
     color: black;
-    border-top: 1px solid black;
     position: fixed;
     bottom: 0px;
     width: 100%;
