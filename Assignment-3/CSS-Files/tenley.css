@@ -5,6 +5,9 @@ nav {
     background-color: #8b4513;
     z-index: 1;
 }
+#MobileSide {
+    display:none;
+}
 #sidebar {
     height: 1000px;
     position: fixed;
@@ -14,6 +17,7 @@ nav {
 #carousel {
     width: 600px;
     height: 700px;
+    z-index: -1;
 }
 #carousel img {
     width: 700px;
@@ -41,11 +45,18 @@ footer {
         display:none
     }
     #carousel {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
     #carousel img {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
+    }
+    body {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    #MobileSide {
+        display:inline;
     }
 }

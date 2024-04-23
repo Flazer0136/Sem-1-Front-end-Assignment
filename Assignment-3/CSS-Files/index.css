@@ -4,6 +4,9 @@ nav {
     width: 100%;
     background-color: lavenderblush;
 }
+#MobileSide {
+    display:none;
+}
 #sidebar {
     height: 1000px;
     background-color: lavenderblush;
@@ -30,5 +33,12 @@ footer {
 @media screen and (max-width: 960px) {
     #sidebar {
         display:none
+    }
+    body {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    #MobileSide {
+        display:inline;
     }
 }
