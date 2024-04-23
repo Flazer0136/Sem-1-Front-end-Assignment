@@ -32,20 +32,37 @@
                     <form id="voteForm" style="margin: 10px;">
                         <div class="form-group">
                             <label for="name" class="form-label"> Enter Your Name:</label>
-                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
                         </div>
                         <div class="form-group">
                             <label for="favoriteCat">Favorite Cat:</label>
-                            <select class="form-select" id="favoriteCat">
-                                <option value="1">Maxwell</option>
-                                <option value="2">Tenley</option>
-                                <option value="3">Mona</option>
-                            </select>
+                                <p><input type="button" class="btn btn-outline-primary" onclick="userSubmitMax()" value="Maxwell"></input></p>
+                                <p><input type="button" class="btn btn-outline-primary" onclick="userSubmitTen()" value="Tenley"></input></p>
+                                <p><input type="button" class="btn btn-outline-primary" onclick="userSubmitMona()" value="Mona"></input></p>
                         </div>
                     </form>
-                    <div id="pollResults">
-                        <!-- Poll results will be displayed here -->
+                    <div id="pollResultsMax" style="display: none">
+                        <ul>
+                            <li>Maxwell: 8</li>
+                            <li>Tenley: 6</li>
+                            <li>Mona: 4</li>
+                        </ul>
                     </div>
+                    <div id="pollResultsTen" style="display: none">
+                        <ul>
+                            <li>Maxwell: 7</li>
+                            <li>Tenley: 7</li>
+                            <li>Mona: 4</li>
+                        </ul>
+                    </div>
+                    <div id="pollResultsMona" style="display: none">
+                        <ul>
+                            <li>Maxwell: 7</li>
+                            <li>Tenley: 6</li>
+                            <li>Mona: 5</li>
+                        </ul>
+                    </div>
+                    <div id="errorMessages"></div>
                 </div>
             </div>
             <div class="col-8 col-md-8 col-sm-8 col-lg-8">

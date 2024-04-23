@@ -15,6 +15,10 @@ nav {
     width: 600px;
     height: 700px;
 }
+#carousel img {
+    width: 700px;
+    height: 700px;
+}
 .container {
     display: grid;
     place-items: center;
@@ -31,4 +35,17 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
+}
+@media screen and (max-width: 960px) {
+    #sidebar {
+        display:none
+    }
+    #carousel {
+        width: 200px;
+        height: 200px;
+    }
+    #carousel img {
+        width: 200px;
+        height: 200px;
+    }
 }
